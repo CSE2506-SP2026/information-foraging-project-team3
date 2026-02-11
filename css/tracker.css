@@ -232,3 +232,83 @@ span {
     width: 90%;
     border: none;
 }
+
+/* explore classrooms section */
+/* click events fix */
+.age-card .age,
+.age-card .room {
+    pointer-events: none;
+}
+
+.classroom-explore{
+    margin: 2.5rem 0;
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: #f8fafb;
+}
+
+.classroom-explore h3{
+    margin-bottom: 0.5rem;
+    color: #a51417;
+}
+
+.classroom-subtext{
+    margin-bottom: 1.5rem;
+    max-width: 720px;
+    color: #a51417;
+}
+
+/*layout*/
+
+.age-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.age-card{
+    display: block;
+    min-width: 180px;
+    padding: 16px 18px;
+    border: 2px solid #a51417;
+    border-radius: 18px;
+    text-decoration: none;
+    color: #a51417;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: trasform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.age-card:hover{
+    transform: translateY(_3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+/*age title*/
+.age-card .age{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.age-card .room{
+    display: block;
+    margin-top: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+
+    opacity: 0;
+    transform: translateY(-6px);
+    max-height: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease, max-height 0.2s ease;
+}
+
+/*hover effect*/
+.age-card:hover .room,
+.age-card:focus-visible .room{
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 40px;
+
+}
