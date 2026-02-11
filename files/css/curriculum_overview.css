@@ -20,15 +20,3 @@ main li {
     float: left;
     margin-right: 2.5em;
 }
-
-.classroom p {
-    font-size: 1.15em;
-}
-main h2 {
-    font-weight: 700;   /* bold */
-}
-
-/* Subsection headers */
-main h3 {
-    font-weight: 500;
-  }  /* no
