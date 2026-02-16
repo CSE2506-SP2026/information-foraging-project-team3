@@ -312,3 +312,14 @@ span {
     max-height: 40px;
 
 }
+
+.age-note{
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
