@@ -304,7 +304,6 @@ span {
     transition: opacity 0.2s ease, transform 0.2s ease, max-height 0.2s ease;
 }
 
-/*hover effect*/
 .age-card:hover .room,
 .age-card:focus-visible .room{
     opacity: 1;
@@ -323,3 +322,86 @@ span {
     margin-right:auto;
 
 }
+
+.deposit-section{
+    padding: 1.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eee;
+    margin-bottom: 1.5em;
+}
+
+.deposit-section h2{
+    margin: 0;
+    font-size: 1.3rem;
+
+}
+
+.deposit-header p{
+    margin: 0;
+}
+
+.subtitle{
+    margin: 4px 0 14px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.deposit-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.deposit-list li{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+
+}
+
+.check{
+    color: #278E7F;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.pay-button{
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    background: #A61416;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.pay-button:hover{
+    background: #8e1113;
+}
+
+.deposit-amount{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.deposit-amount{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.deposit-month{
+    margin-top: 4px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+
